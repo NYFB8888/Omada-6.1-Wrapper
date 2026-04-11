@@ -1,0 +1,9 @@
+
+"api" : "/openapi/v1/{omadacId}/sites/{siteId}/clients/{clientMac}/client-link-topology"
+"mod": "POST"
+"arguments":
+  "{clientMac}" : "50:8b:b9:b6:f3:46"
+  "headers": {}
+"mapping": {}
+"report_output": "/var/www/html/TEST/test-03.html"
+ 

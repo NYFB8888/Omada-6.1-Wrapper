@@ -1,0 +1,12 @@
+
+"api" : "/openapi/v2/{omadacId}/sites/{siteId}/clients"
+"mod": "POST"
+"arguments":
+  "headers": {}
+"mapping": {
+  "apMac"  : "MAC ADDRESS",
+  "hostName" : "Host",
+  "ip"   : "IP address"
+}
+"report_output": "/var/www/html/TEST/test-02.html"
+ 

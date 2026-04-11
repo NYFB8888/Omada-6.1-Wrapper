@@ -1,0 +1,12 @@
+
+"api" : "/openapi/v1/{omadacId}/sites/{siteId}/aps/{apMac}/available-channel"
+"mod": "GET"
+"arguments":
+  "{apMac}": "A8-00-00-00-00"
+"mapping": {
+    "radioId" : "Radio ID",
+  "apChannelDetailList" : "Channels List"
+}
+
+"report_output": "/var/www/html/TEST/test-01.html"
+ 

@@ -1,0 +1,7 @@
+api: "/openapi/v1/{omadacId}/sites/{siteId}/aps/channel-info"
+mod: "POST"
+arguments:
+  json:
+    "macList": ["00-00-00-00-00-00","11-11-11-11-11-11"]
+mapping:
+report_output: "/var/www/html/TEST/test-06.html"

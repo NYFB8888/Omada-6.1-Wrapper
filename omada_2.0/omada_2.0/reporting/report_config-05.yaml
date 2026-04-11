@@ -1,0 +1,15 @@
+api: "/openapi/v1/{omadacId}/sites/{siteId}/clients"
+mod: "GET"
+arguments:
+  params:  # Use params for GET, not json
+    macs: "00-00-00-00-00-00,11-11-11-11-11-11"  # Example MAC addresses
+headers: {}
+mapping: {
+  "apName":"Host",
+  "mac" : "apMac",
+  "ip"    : "IP",
+  "ssid" : "SSID",
+  "wifiMode" : "Wi-Fi Mode"
+}
+ 
+report_output: "/var/www/html/TEST/test-05.html"

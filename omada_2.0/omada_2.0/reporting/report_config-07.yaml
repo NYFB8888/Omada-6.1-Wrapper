@@ -1,0 +1,12 @@
+api: "/openapi/v1/{omadacId}/sites/{siteId}/clients"
+mod: "GET"
+arguments:
+  params:
+    currentPage: 1
+    pageSize: 100
+mapping:
+  name: "Host Name"
+  mac: "MAC Address"
+  ip: "IP Address"
+  uptime: "Connected Time"
+report_output: "/var/www/html/TEST/test-07.html"

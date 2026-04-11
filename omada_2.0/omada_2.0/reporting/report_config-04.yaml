@@ -1,0 +1,8 @@
+api: "/openapi/v1/{omadacId}/sites/{siteId}/aps/{apMac}/ip-setting"
+mod: "GET"
+arguments:
+  "{apMac}" : "A8-29-48-40-2E-E0"
+  headers: {}
+  payload: {}
+mapping: {}
+report_output: "/var/www/html/TEST/test-04.html"

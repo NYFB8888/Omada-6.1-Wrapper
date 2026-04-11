@@ -1,0 +1,9 @@
+baseurl: "https://10.0.10.254"
+username: "admin"
+password: "LucekMaciek123!"
+site: "LMG"
+client_id: "59ecf0ee193947b490b14f81af43f0af"
+client_secret: "ae457914bcd14635845839d1c56ffb61"
+debug:  false
+verify: false
+
